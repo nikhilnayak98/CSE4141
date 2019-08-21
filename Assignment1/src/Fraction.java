@@ -8,6 +8,10 @@ public class Fraction {
         this.numerator = numerator;
         this.denominator = denominator;
     }
+    
+    void displayFraction() {
+        System.out.println(this.numerator + " / " + this.denominator);
+    }
 
     Fraction addFraction(Fraction f) {
         int cd = this.denominator * f.denominator;
