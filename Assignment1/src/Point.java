@@ -10,12 +10,12 @@ public class Point {
     }
 
     void printPoint() {
-        System.out.println("X = " + x);
-        System.out.println("Y = " + y);
+        System.out.println("X = " + this.x);
+        System.out.println("Y = " + this.y);
     }
 
     double findDistance(Point p) {
-        return Math.sqrt(Math.pow((p.x - this.x), 2) + Math.pow((p.y - this.x), 2));
+        return Math.sqrt(Math.pow((p.x - this.x), 2) + Math.pow((p.y - this.y), 2));
     }
 
     double slope(Point p) {
