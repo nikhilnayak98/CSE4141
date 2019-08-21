@@ -71,7 +71,7 @@ public class Fraction {
         return f2;
     }
 
-    public int gcd(Fraction f){
+    int gcd(Fraction f){
         int testNum = f.numerator;
         int testDen = f.denominator;
 
@@ -89,7 +89,7 @@ public class Fraction {
         return testNum;
     }
 
-    public Fraction simplify(){
+    Fraction simplify(){
         int gcd = gcd(this);
 
         int simpNum = this.numerator;
